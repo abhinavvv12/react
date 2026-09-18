@@ -1,0 +1,93 @@
+*{  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+  background-color: #111;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.parent{
+    background-color: #f1eeee;
+    min-height: 100vh;
+    width: 60vw;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    font-size: small;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 2px solid rgb(149, 120, 120);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top button{
+    background-color: #f0eaea;
+    color: rgb(165, 135, 135);
+    border: none;
+    padding: 5px;
+}
+.top p{
+    font-size: smaller;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color: #8f7979;
+}
+.middle div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.designation p{
+    background-color: #e7dddd;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+}
+button{
+    padding: 3px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}

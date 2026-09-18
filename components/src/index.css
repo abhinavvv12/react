@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card{
+  background-color: #111;
+  color: pink;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navbar{
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+  width: 100%;
+}
